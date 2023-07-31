@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather_frame</title>
+    <link rel="stylesheet" href="src/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/76012e720b.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+
+</head>
+<body>
+    <div class="card">
+    <div class="card-body">
+    <div class="container">
+        
+
+        <form >
+            
+        
+            <input type="text"
+                   placeholder="Enter a city"
+                   autocomplete="off"
+                   class="city"
+                   id="city">
+            <input type="submit"
+                   value="Search"
+                   class="button-search"
+                   id="button-search">
+                   
+            <input type="submit"
+                   value="Current"
+                   class="button-current"
+                   id="button-current">
+             </form>
+                <h1 id="town"> Kiev</h1>
+                <div id="date">Friday 20:35 </div>
+                
+                <h2><span class="currentTemperature">20</span><a class= "celsiy"href="#">°C</a>|<a class= "farenheit" href="#">&deg;F</a></h2>
+                <p>Presipitation 68 %
+                </br>
+                Wind 5 km/h
+                </p>
+            
+             <div class="row">
+        <div class="col-2" id="day">
+        Sat
+        </div>
+        <div class="col-2" id="day">
+            Sun
+        </div>
+        <div class="col-2" id="day">
+            Mon
+        </div>
+        <div class="col-2" id="day">
+            Tue
+        </div>
+        <div class="col-2" id="day"
+        >
+            Wed
+        </div>
+        <div class="col-2" id="day">
+            Thu
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-2">
+            <i class="fa-solid fa-sun"></i>
+            <br>
+            25&deg;
+        </div>
+        <div class="col-2">
+            <i class="fa-solid fa-cloud-rain"></i>
+            <br>
+            21&deg;
+        </div>
+        <div class="col-2">
+            <i class="fa-solid fa-cloud-sun"></i>
+            <br>
+            24&deg;
+        </div>
+        <div class="col-2">
+            <i class="fa-solid fa-cloud-sun"></i>
+            <br>
+            26&deg;
+        </div>
+        <div class="col-2">
+            <i class="fa-solid fa-sun"></i>
+            <br>
+            27&deg;
+        </div>
+        <div class="col-2">
+            <i class="fa-solid fa-sun"></i>
+            <br>
+            29&deg;
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="Who">Coded by Svitlana Kuznietsova</div>
+    <script src="src/index.js">
+	</script>
+</body>
+</html>

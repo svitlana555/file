@@ -1,0 +1,94 @@
+h1{
+  font-size: 40px;
+  font-family:'Times New Roman', Times, serif;
+  padding: 5px 0;
+  font-weight: bold;
+}
+h2{
+  font-size: 34px;
+  font-weight: 20px;
+  font-family:'Times New Roman', Times, serif;
+  
+}
+a{
+  display: inline;
+}
+
+
+
+p{
+  opacity: 0.7;
+  font-style: italic;
+  position:relative;
+  left: 250px;
+  top: -60px;
+}
+
+
+.card-body {
+  margin: 60px auto;
+  padding-left: 0;
+  border: solid;
+  border-color:#04C3FF;
+  background-color:#fff;
+  width: 50%;
+  border-style: solid;
+}
+
+
+.date{
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+.city{
+  border-color: #00E1DB;
+  padding: 10px ;
+  border-radius:3px ;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Roboto', sans-serif;
+}
+
+.city:hover{
+  border-color:#04C3FF;
+}
+
+.button-search{
+  background: #00E1DB;
+  color: white;
+  border:none ;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+.button-current{
+  background:#04C3FF;
+  color: white;
+  border:none ;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+#day{
+  background:#CCF9F8;
+  padding: 0 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.col-2{
+  margin:20px 0;
+  text-align: center;
+}
+
+.Who {
+      font-size: 18px;
+      font-family: monospace;
+      text-align: center;
+      opacity: 0.7;
+      margin-top: 100px;
+}
